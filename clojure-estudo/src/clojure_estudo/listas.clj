@@ -36,3 +36,25 @@
 (defn incluiInicioListaString []
   (println (cons "Renan" (list "Muniz" "Merlo"))))
 (incluiInicioListaString)
+
+
+
+(defn incluiNoFinalInvertido []
+  (println (conj (list 1 2,3) "a" "b" "c")))
+(incluiNoFinalInvertido)
+
+
+(defn incluiNoFinalInvertido2 []
+  (println (conj (list "a" "b" "c") "d" "e" "f")))
+(incluiNoFinalInvertido2)
+
+
+
+(defn restoDaListaAposPrimeiroElemento []
+  (println (rest (list 1 2 3))))
+(restoDaListaAposPrimeiroElemento)
+
+
+(defn restoDaListaAposPrimeiroElemento2 []
+  (println (rest (list "Renan" "Muniz" "Merlo"))))
+(restoDaListaAposPrimeiroElemento2)
