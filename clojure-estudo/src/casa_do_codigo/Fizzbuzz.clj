@@ -24,6 +24,11 @@
     (and (= true (divisivelPor3 n)) (= true (divisivelPor5 n))) (println "FizzBuzz")
     (= true (divisivelPor3 n)) (println "Fizz")
     (= true (divisivelPor5 n)) (println "Buzz")
-    :else (str "nenhum:" n)
+    :else (println n)
   )
 )
+
+(defn fizzbuzzcomlista [lista]
+  (doseq [l lista]                ;'for each' para cada valor da sequencia faca...
+    (fizzbuzz l)
+    ))
