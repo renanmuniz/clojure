@@ -43,3 +43,7 @@ M
 src/casa_do_codigo/pureza.clj,1/5/154dee0ef3b234e5f2b458e05bc662e38db5446c
 T
 $src/clojure_estudo/recursividade.clj,c/4/c49a0a02d54dab65e02f4f880f1802a4b327b368
+K
+src/casa_do_codigo/atom.clj,7/d/7d43817f970481fd0c5571d4b674e5a7ba950897
+T
+$src/casa_do_codigo/imutabilidade.clj,f/0/f04e53d80f1ae8c9e67628be81dae37b76e00786
